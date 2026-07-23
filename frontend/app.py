@@ -80,7 +80,7 @@ with st.sidebar:
 
     st.caption("IndustrialBrain AI v1.0")
 
-
+st.title("IndustrialBrain AI")
 
 st.caption(
     "Industrial Document Intelligence powered by Artificial Intelligence"
