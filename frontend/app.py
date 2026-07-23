@@ -50,7 +50,7 @@ def set_background(image_file):
 
 
 st.set_page_config(
-    title="INDUSTRIALBRAINAI"
+    page_title="INDUSTRIALBRAINAI",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
