@@ -23,6 +23,9 @@ IndustrialBrain AI solves this problem by combining:
 to provide fast and accurate document understanding.
 
 ---
+## 🎥 Demo
+
+A demonstration video showcasing the complete workflow of IndustrialBrain AI will be available soon.
 
 # ✨ Features
 
