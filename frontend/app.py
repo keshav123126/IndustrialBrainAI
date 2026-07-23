@@ -1,13 +1,32 @@
 import requests
 import streamlit as st
+import streamlit as st
+import base64
 
+def set_background(image_file):
+    with open(image_file, "rb") as image:
+        encoded = base64.b64encode(image.read()).decode()
+
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("data:image/jpg;base64,{encoded}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 st.set_page_config(
     page_title="IndustrialBrain AI",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+set_background("images/background.jpg")
 st.markdown("""
 <style>
 
